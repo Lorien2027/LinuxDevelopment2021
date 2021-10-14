@@ -10,6 +10,7 @@ fi
 length=0
 while IFS= read -r line; do
     line=$(tr -d '\n' <<< $line)
+    line=$(echo "$line" | cat -v | tr -d '_^H' )
     for ((i = 0; i < ${#line}; i++)); do
         if ! [ -z ${line:i:1} ]
             then
