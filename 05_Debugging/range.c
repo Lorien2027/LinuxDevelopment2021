@@ -1,19 +1,19 @@
 #include <stdio.h>
 
 int main(int argc, char* argv[]) {
-	int start = 0;
+    int start = 0;
 	int end = 1;
 	int step = 1;
 	if (argc == 1) {
     	printf("%s",
-			"usage: range [start] [end] [step]\n"
-			"start: range start\n"
-			"end: range end\n"
-			"step: range step\n"
-			"output depends on the number of arguments:\n"
-			"\t1: [0, 1, ..., end-1]\n"
-			"\t2: [start, start+1, ..., end-1]\n"
-			"\t3: [start, start+step, ..., end-1]\n"
+            "usage: range [start] [end] [step]\n"
+            "start: range start\n"
+            "end: range end\n"
+            "step: range step\n"
+            "output depends on the number of arguments:\n"
+            "\t1: [0, 1, ..., end-1]\n"
+            "\t2: [start, start+1, ..., end-1]\n"
+            "\t3: [start, start+step, ..., end-1]\n"
     	);
     	return 0;
     }
