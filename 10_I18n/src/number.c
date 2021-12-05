@@ -14,7 +14,7 @@ int main(int argc, char **argv) {
     bindtextdomain(PACKAGE, LOCALE_PATH);
     textdomain(PACKAGE);
 
-    printf(_("Guess a number from 0 to 100.\n"));
+    printf(_("Guess a number from 1 to 100.\n"));
     int lower = 1;
     int upper = 100;
     int middle = (lower + upper) / 2;
