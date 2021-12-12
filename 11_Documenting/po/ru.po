@@ -26,7 +26,7 @@ msgstr "Использование: number [-r]\n"
 #: ../src/number.c:61
 #, c-format
 msgid "\t-r\tEnable Roman numbers\n"
-msgstr "Включает поддержу римских цифр\n"
+msgstr "Включает поддержку римских цифр\n"
 
 #: ../src/number.c:75
 #, c-format
