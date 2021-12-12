@@ -1,0 +1,10 @@
+/// @mainpage
+# @PACKAGE_NAME@ v. @PACKAGE_VERSION@
+
+## Intro
+Guesses a number from 1 to 100 with support for Roman numbers.
+## Usage
+usage: number [-r]
+
+    -r    Enable Roman numbers
+
